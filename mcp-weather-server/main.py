@@ -76,7 +76,7 @@ async def query_weather(city: str) -> str:
 
 def main():
     parser = argparse.ArgumentParser(description="Weather Server")
-    parser.add_argument("--api_key", type=str, required=True, help="你的 OpenWeather API Key")
+    parser.add_argument("--api_key", type=str, required=True, help="dd3f5111277ddd882a215a190957221e")
     args = parser.parse_args()
     global API_KEY
     API_KEY = args.api_key
